@@ -1,0 +1,65 @@
+body{
+  padding: 2px;
+  background-color: rgb(173, 173, 179);
+  text-align: center;
+  background-image: url(logo.svg);
+}
+
+h1{
+  text-shadow: 1px 1px 2px rgb(246, 246, 248);
+  font-size: 32pt;
+}
+
+
+input{
+  padding: 5px 5px;
+  margin: 4px 4px;
+  border-radius: 0.5em;
+ }
+ p{
+  font-size: 16pt;
+ }
+
+ .btnCadastrar{
+  background-color: rgb(116, 145, 116);
+  color: white;
+ }
+
+ .btnLimpar{
+  background-color: rgb(235, 235, 219);
+  font-weight: bold;
+ }
+
+
+/**  Dispositivos móveis  **/
+
+
+@media only screen and (max-width: 450px) {
+ body{
+  background-color: rgb(149, 153, 153);
+ }
+
+ h1{
+  font-size: 18pt;
+ }
+
+ input{
+  padding: 5px 5px;
+  margin: 4px 4px;
+  border-radius: 0.5em;
+ }
+ p{
+  font-size: 16pt;
+ }
+
+ .btnCadastrar{
+  background-color: rgb(116, 145, 116);
+  color: white;
+ }
+
+ .btnLimpar{
+  background-color: rgb(235, 235, 219);
+  font-weight: bold;
+ }
+  
+}
